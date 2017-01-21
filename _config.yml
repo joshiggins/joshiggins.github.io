@@ -8,10 +8,7 @@ url: https://joshh.info # site url
 baseurl: null # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
-google_analytics: UA-XXXXX-XX
-repo: 
-disqus_shortname: "heiswayi"
-twitter_username: "hpcrc"
+disqus_shortname: "joshhinfo"
 comments: true
 
 # Build settings
@@ -28,12 +25,6 @@ sass:
   style: compressed # expanded
 
 # Author settings
-
-
-# social settings
-og_locale: "en_US"
-twitter_card: "summary_large_image"
-twitter_site: "@HeiswayiNrird"
 
 gems:
   - bourbon
