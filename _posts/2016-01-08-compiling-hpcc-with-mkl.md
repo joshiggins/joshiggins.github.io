@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 categories : 
 - hpc
 title: "Compiling HPC Challenge benchmark (hpcc) with the Intel MKL"

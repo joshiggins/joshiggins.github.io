@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 categories : 
 - docker
 title: "Running an X server inside a Docker container"
