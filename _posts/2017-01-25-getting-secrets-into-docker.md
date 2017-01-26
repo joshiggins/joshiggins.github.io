@@ -31,7 +31,7 @@ The repository, username and password should be passed in through environment va
 You can see an implementation here: [hpchud/dns](https://github.com/hpchud/dns). We put the private repository holding the configuration on bitbucket, and use an organisation API key to access it like so:
 
 ```
-docker run -d -p 53:53 \
+docker run -d --net=host \
     -e CONFIG_REPO=bitbucket.org/hpchud/dns-config.git \
     -e CONFIG_USER=<org name>
     -e CONFIG_PASS=<api key> \
