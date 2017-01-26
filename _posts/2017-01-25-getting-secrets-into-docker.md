@@ -33,7 +33,7 @@ You can see an implementation here: [hpchud/dns](https://github.com/hpchud/dns).
 ```
 docker run -d --net=host \
     -e CONFIG_REPO=bitbucket.org/hpchud/dns-config.git \
-    -e CONFIG_USER=<org name>
+    -e CONFIG_USER=<org name> \
     -e CONFIG_PASS=<api key> \
     hpchud/dns
 ```
