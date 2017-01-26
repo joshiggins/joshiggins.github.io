@@ -14,7 +14,7 @@ It makes sense for us to create a container for it, but should we also include a
 
 ## Docker secrets
 
-Docker has introduced support for [secrets](https://docs.docker.com/engine/reference/commandline/secret/) and while it is well suited for including passwords, API keys, and other information like that, the idea of include a binary blob to include more complex data than a string just feels messy.
+Docker has introduced support for [secrets](https://docs.docker.com/engine/reference/commandline/secret/) and while it is well suited for including passwords, API keys, and other information like that, the idea of including a binary blob to include more complex data than a string just feels messy.
 
 It's also not clear how to persist these secrets, and if you want any kind of version control you have to do it yourself.
 
@@ -28,7 +28,7 @@ When the container is starting, an entrypoint script pulls this repository and p
 
 The repository, username and password should be passed in through environment variables or Docker secrets.
 
-You can see an implementation here: [hpchud/dns](https://github.com/hpchud/dns). We put the repository holding the configuration is on bitbucket, and use an organisation API key to access it like so:
+You can see an implementation here: [hpchud/dns](https://github.com/hpchud/dns). We put the private repository holding the configuration on bitbucket, and use an organisation API key to access it like so:
 
 ```
 docker run -d -p 53:53 \
