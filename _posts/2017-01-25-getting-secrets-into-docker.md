@@ -45,6 +45,8 @@ It works well. In addition, when restarting the container, the old config is cle
 ## Is this the Docker way?
 
 I think that as long as
+
 - we bomb out when the config repository is not available,
 - the format of the config repository is well documented,
+
 this is a good way to deal with the problem in line with the Docker philosophy.
