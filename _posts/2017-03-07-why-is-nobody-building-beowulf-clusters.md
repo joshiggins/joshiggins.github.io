@@ -1,14 +1,16 @@
 ---
 layout: post
 comments: true
-title: "Why is nobody building beowulf clusters?... because Linux on desktop PCs is shit"
-fulltitle: "Why is nobody building beowulf clusters?... because Linux on desktop PCs is shit"
+title: "Why is nobody building beowulf clusters?... because Linux on desktop PCs is s**t"
+fulltitle: "Why is nobody building beowulf clusters?... because Linux on desktop PCs is s**t"
 excerpt: ""
 categories : 
 - notes
 - rants
 - hpc
 ---
+
+> This post is a rant
 
 I've used Linux almost exclusively for a long time and had the impression that it is fairly stable and hardware support is good. But when I think about the kind of hardware I've ran, it has been generally _Linux friendly_: most of the T-series ThinkPads for example. Forgive the odd bit of non-free firmware for stuff like network cards, it's plain sailing.
 
