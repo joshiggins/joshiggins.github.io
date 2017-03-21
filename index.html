@@ -3,12 +3,12 @@ layout: default
 title: Home
 ---
 
-
 <section class="intro">
+
   <div class="container">
-    <h2 class="category-title">Tags</h2>
+    <h3 class="category-title">Tags</h3>
     {% for tag in site.categories %}
-      <a href="/tags/#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+      <a href="/tags/#{{ tag[0] | slugify }}" style="border:1px solid #000;padding:1px;">{{ tag[0] }}</a>
     {% endfor %}
   </div>
 </section>

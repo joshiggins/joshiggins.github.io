@@ -6,7 +6,7 @@ title: All posts by Tag
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% for tag in site.categories %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | slugify }}" style="border:1px solid #000;padding:1px;">{{ tag[0] }}</a>
     {% endfor %}
   </div>
   <hr/>
