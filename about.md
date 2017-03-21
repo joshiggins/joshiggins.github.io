@@ -4,7 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-I am currently a Part Time Lecturer and PhD candidate in the High Performance Computing Research Group at the University of Huddersfield.
+<img src="/assets/images/me.jpg" width="300px"/>
+
+I am currently a Part Time Lecturer and PhD candidate in the [High Performance Computing Research Group](http://hpc.hud.ac.uk/) at the University of Huddersfield.
 
 My main interests are in programming and music technology, sometimes a combination of the two.
 
@@ -13,7 +15,7 @@ My main interests are in programming and music technology, sometimes a combinati
 You can most likely find full texts for these publications on [my ResearchGate profile](https://www.researchgate.net/profile/Joshua_Higgins) or [Google Scholar](https://scholar.google.co.uk/citations?user=YQVz-LkAAAAJ&hl=en).
 
 <div id="bibtex_display">
-<div class="" style=""><div class="" style="font-weight: bold;">
+<div class="" style=""><div class="" style="font-weight: bold;padding-top:10px;">
   <span class="">
     <span class="year">2015</span>, 
   </span>
@@ -27,7 +29,7 @@ You can most likely find full texts for these publications on [my ResearchGate p
 <span style="margin-left: 10px; margin-bottom:5px;" class="">
     <span class="booktitle">International Workshop on Multi-disciplinary Trends in Artificial Intelligence</span>
   </span>
-</div><div class="" style=""><div class="" style="font-weight: bold;">
+</div><div class="" style=""><div class="" style="font-weight: bold;padding-top:10px;">
   <span class="">
     <span class="year">2015</span>, 
   </span>
@@ -41,7 +43,7 @@ You can most likely find full texts for these publications on [my ResearchGate p
 <span style="margin-left: 10px; margin-bottom:5px;" class="">
     <span class="booktitle">International Conference on High Performance Computing</span>
   </span>
-</div><div class="" style=""><div class="" style="font-weight: bold;">
+</div><div class="" style=""><div class="" style="font-weight: bold;padding-top:10px;">
   <span class="">
     <span class="year">2016</span>, 
   </span>
@@ -51,9 +53,11 @@ You can most likely find full texts for these publications on [my ResearchGate p
 <div style="margin-left: 10px;">
   <span class="title">Accelerating High-Throughput Computing through OpenCL</span>
 </div>
+<span style="margin-left: 10px; margin-bottom:5px;" class="">
+    <span class="booktitle">The Emerging Technology (EMiT) Conference, June 2016</span>
+  </span>
 
-
-</div><div class="" style=""><div class="" style="font-weight: bold;">
+</div><div class="" style=""><div class="" style="font-weight: bold;padding-top:10px;">
   <span class="">
     <span class="year">2016</span>, 
   </span>
@@ -65,9 +69,9 @@ You can most likely find full texts for these publications on [my ResearchGate p
 </div>
 
 <span style="margin-left: 10px; margin-bottom:5px;" class="">
-    <span class="booktitle">High Performance Computing \&amp; Simulation (HPCS), 2016 International Conference on</span>
+    <span class="booktitle">High Performance Computing &amp; Simulation (HPCS), 2016 International Conference on</span>
   </span>
-</div><div class="" style=""><div class="" style="font-weight: bold;">
+</div><div class="" style=""><div class="" style="font-weight: bold;padding-top:10px;">
   <span class="">
     <span class="year">2016</span>, 
   </span>
@@ -81,4 +85,20 @@ You can most likely find full texts for these publications on [my ResearchGate p
     <span class="journal">The Computer Journal</span>
   </span>
 
-</div></div>
+</div>
+
+<div class="" style=""><div class="" style="font-weight: bold;padding-top:10px;">
+  <span class="">
+    <span class="year">2017</span>, 
+  </span>
+  <span class="author">Higgins, Joshua and Holmes, Violeta and Venters, Colin</span>
+  
+</div>
+<div style="margin-left: 10px;">
+  <span class="title">VCC: A framework for building containerized reproducible cluster software environments</span>
+</div>
+<span style="margin-left: 10px; margin-bottom:5px;" class="">
+    <span class="journal">Journal of Open Source Software</span> <a href="http://dx.doi.org/10.21105/joss.00208"><img src="http://joss.theoj.org/papers/10.21105/joss.00208/status.svg" /></a>
+  </span>
+
+</div>
