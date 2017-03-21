@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title: "Why is nobody building beowulf clusters?... because Linux on desktop PCs is shit"
-fulltitle: "Why is nobody building beowulf clusters?... because Linux on desktop PCs is shit"
+title: "Why is nobody building beowulf clusters?... because Linux on desktop PCs is s**t"
+fulltitle: "Why is nobody building beowulf clusters?... because Linux on desktop PCs is s**t"
 excerpt: ""
 ---
 
