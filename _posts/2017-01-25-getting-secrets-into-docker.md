@@ -4,6 +4,11 @@ comments: true
 title: "Getting secrets (and other assets) into Docker containers at runtime"
 fulltitle: "Getting secrets (and other assets) into Docker containers at runtime"
 excerpt: ""
+categories : 
+- docker
+- containers
+- secrets
+- dnsmasq
 ---
 
 We are making at push in order to containerise (if that's even a word) more parts of the HPC infrastructure for better manageability. Starting with fundamental aspects of any network connected system: name resolution and address assignment.

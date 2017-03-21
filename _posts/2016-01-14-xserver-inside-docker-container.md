@@ -3,6 +3,8 @@ layout: post
 comments: true
 categories : 
 - docker
+- containers
+- X
 title: "Running an X server inside a Docker container"
 fulltitle: "Running an X server inside a Docker container"
 excerpt: ""

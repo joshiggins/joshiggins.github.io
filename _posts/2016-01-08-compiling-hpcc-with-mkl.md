@@ -1,8 +1,11 @@
 ---
 layout: post
 comments: true
-categories : 
-- hpc
+categories: 
+    - hpc
+    - howto
+    - benchmarking
+    - cluster
 title: "Compiling HPC Challenge benchmark (hpcc) with the Intel MKL"
 fulltitle: "Compiling HPC Challenge benchmark (hpcc) with the Intel MKL"
 excerpt: ""
@@ -88,13 +91,13 @@ Set the LAdir and LAlib variables to point to the Intel MKL library
 LAdir        = /opt/intel/mkl/lib/intel64
 LAinc        =
 LAlib        = -Wl,--start-group $(LAdir)/libfftw2x_cdft_DOUBLE_ilp64.a \
-			$(LAdir)/libfftw2xc_double_gnu.a \
-			$(LAdir)/libmkl_intel_lp64.a \
-			$(LAdir)/libmkl_intel_thread.a \
-			$(LAdir)/libmkl_core.a \
-			$(LAdir)/libmkl_blacs_intelmpi_lp64.a \
-			$(LAdir)/libmkl_cdft_core.a \
-			-Wl,--end-group
+            $(LAdir)/libfftw2xc_double_gnu.a \
+            $(LAdir)/libmkl_intel_lp64.a \
+            $(LAdir)/libmkl_intel_thread.a \
+            $(LAdir)/libmkl_core.a \
+            $(LAdir)/libmkl_blacs_intelmpi_lp64.a \
+            $(LAdir)/libmkl_cdft_core.a \
+            -Wl,--end-group
 </pre>
 
 ### Set the compiler options
@@ -105,8 +108,8 @@ The compiler options are the same whether you want to use GCC or clang. clang se
 CC           = /usr/bin/[gcc|clang]
 CCNOOPT      = $(HPL_DEFS)
 CCFLAGS      = $(HPL_DEFS) -fomit-frame-pointer -O3 -funroll-loops \
-		-Wl,--no-as-needed -ldl -lmpi -liomp5 -lpthread -lm \
-		-DUSING_FFTW -DMKL_INT=long -DLONG_IS_64BITS
+        -Wl,--no-as-needed -ldl -lmpi -liomp5 -lpthread -lm \
+        -DUSING_FFTW -DMKL_INT=long -DLONG_IS_64BITS
 </pre>
 
 You shouldn't use `-lopenmp` because we want it to be linked against `libiomp5`.
@@ -134,20 +137,20 @@ On my modest desktop with Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz and 16GB of me
 
 <table>
 <thead>
-	<tr>
-		<td><b>Compiler</b></td>
-		<td><b>Gflops</b></td>
-	</tr>
+    <tr>
+        <td><b>Compiler</b></td>
+        <td><b>Gflops</b></td>
+    </tr>
 </thead>
 <tbody>
-	<tr>
-		<td>GCC 5.2.1</td>
-		<td>77.6</td>
-	</tr>
-	<tr>
-		<td>clang 3.6.2-1</td>
-		<td>76.4</td>
-	</tr>
+    <tr>
+        <td>GCC 5.2.1</td>
+        <td>77.6</td>
+    </tr>
+    <tr>
+        <td>clang 3.6.2-1</td>
+        <td>76.4</td>
+    </tr>
 </tbody>
 </table>
 

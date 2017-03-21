@@ -1,0 +1,28 @@
+---
+layout: page
+title: All posts by Tag
+---
+
+<div class="tags-expo">
+  <div class="tags-expo-list">
+    {% for tag in site.categories %}
+    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    {% endfor %}
+  </div>
+  <hr/>
+  <div class="tags-expo-section">
+    {% for tag in site.categories %}
+    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+
+      {% for post in tag[1] %}
+
+      <article class="post-item">
+        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+      </article>
+
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>

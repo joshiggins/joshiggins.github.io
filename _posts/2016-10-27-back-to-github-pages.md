@@ -2,6 +2,8 @@
 layout: post
 title: "Back to github pages"
 fulltitle: "Back to github pages"
+categories : 
+- notes
 excerpt: ""
 ---
 

@@ -4,6 +4,10 @@ comments: true
 title: "Patchless Lustre client on new kernel versions"
 fulltitle: "Patchless Lustre client on new kernel versions"
 excerpt: ""
+categories : 
+- hpc
+- lustre
+- howto
 ---
 
 Lustre is one of the most popular parallel filesystems.

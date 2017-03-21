@@ -1,6 +1,11 @@
 ---
 layout: post
 comments: true
+categories : 
+- docker
+- containers
+- X
+- udev
 title: "X server inside Docker revisited, with input device hotplugging"
 fulltitle: "X server inside Docker revisited, with input device hotplugging"
 excerpt: ""
