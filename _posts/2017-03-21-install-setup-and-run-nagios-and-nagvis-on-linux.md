@@ -61,17 +61,25 @@ The user interfaces will now be available at
 
 That's it. If you have any problems, drop me a line or [create an issue](https://github.com/hpchud/nagios/issues) on GitHub.
 
-## Persisting map changes at runtime
+## Persisting changes at runtime
 
 It can be difficult to write map definitions for Nagvis by hand. You will probably want to use the web interface to set up the maps once your Nagios is configured properly. But if you do this, the changes will be lost when the container is restarted and the configuration is loaded from the repository again.
 
 Therefore, we need to save the changes made at runtime back to the configuration repository.
 
-To do this, you must first clone the configuration repository to your machine. We will call this `$CONFIG_PATH`.
+To do this, you can simply enter the container's environment using the command
+
+```
+docker exec -it cid /bin/bash
+```
+
+where `cid` is the ID or name of the container. Then you can navigate to `/root/nagios-config` and simply `git commit` and `git push` the changes.
+
+### Alternative method to persist changes at runtime
+
+First clone the configuration repository to your machine. We will call this `$CONFIG_PATH`.
 
 Instead of launching the container and specifying a repository to download, we will start a container with no configuration and mount the folders from our local clone of the repository into the container as [Docker volumes](https://docs.docker.com/engine/tutorials/dockervolumes/). This means that changes made at runtime will be made directly into your local clone of the configuration repository.
-
-After the changes have been made, you can destroy the container, commit and push the changes to the repository, and finally restart the container as normal.
 
 This is really useful in production, because you can make and test configuration changes by simply spinning up another instance of the container before commiting the changes to the repository and restarting the main instance.
 
