@@ -73,7 +73,7 @@ To do this, you can simply enter the container's environment using the command
 docker exec -it cid /bin/bash
 ```
 
-where `cid` is the ID or name of the container. Then you can navigate to `/root/nagios-config` and simply `git commit` and `git push` the changes.
+where `cid` is the ID or name of the container. Then you can navigate to `/tmp/nagios-config` and simply `git commit` and `git push` the changes.
 
 ### Alternative method to persist changes at runtime
 
