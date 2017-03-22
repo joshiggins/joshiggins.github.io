@@ -10,6 +10,8 @@ I am currently a Part Time Lecturer and PhD candidate in the [High Performance C
 
 My main interests are in programming and music technology, sometimes a combination of the two.
 
+I can be contacted at my email address joshiggins@gmail.com or joshua.higgins@hud.ac.uk.
+
 ## Publications
 
 You can most likely find full texts for these publications on [my ResearchGate profile](https://www.researchgate.net/profile/Joshua_Higgins) or [Google Scholar](https://scholar.google.co.uk/citations?user=YQVz-LkAAAAJ&hl=en).
