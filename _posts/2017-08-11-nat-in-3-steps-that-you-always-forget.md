@@ -68,5 +68,5 @@ iptables -A FORWARD -i $INTNET -o $EXTNET -j ACCEPT
 and make sure it is executable (some distributions enable and disable processing of the file through the executable bit):
 
 ```
-chmod a+x /etc/rc.loca.
+chmod a+x /etc/rc.local
 ```
