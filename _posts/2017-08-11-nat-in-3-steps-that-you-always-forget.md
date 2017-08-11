@@ -8,13 +8,19 @@ categories :
 - howto
 ---
 
+In this guide, replace `<external>` and `<internal>` with the device names of your external and internal network interfaces respectively.
+
+You can list your network devices with the `ip addr` or `ip link` command.
+
 ## 1. Allow IP forwarding
 
 ```
 echo 1 > /proc/sys/net/ipv4/ip_forward
 ```
 
-## 2. Enable masquerade (allows all the hosts behind the server to use it's IP address)
+## 2. Enable masquerade
+
+Masquerade allows all the hosts on the server's internal network to hide behind and use it's IP address on the external network.
 
 ```
 iptables -t nat -A POSTROUTING -o <external> -j MASQUERADE
