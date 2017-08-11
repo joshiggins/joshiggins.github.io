@@ -52,9 +52,9 @@ net.ipv4.ip_forward = 1
 
 to always allow IP forwarding when the system reboots.
 
-Then, create a script to apply your IP tables rules. Most distributions allow you to put commands in `/etc/rc.local` that will be executed on boot.
+Then, create a script to apply your IP tables rules. Most distributions allow you to put commands in `/etc/rc.local` that will be executed on boot. Some distributions have their own methods to save iptables rules, but some don't. Creating a script is guaranteed to work for anyone *(no guarantee of any kind is expressed or implied)*.
 
-Add something like
+Add something like this to `/etc/rc.local` or a new script.
 
 ```
 INTNET="eth1"
