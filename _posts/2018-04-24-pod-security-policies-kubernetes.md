@@ -6,6 +6,7 @@ fulltitle: ""
 excerpt: ""
 categories : 
 - howto
+- kubernetes
 ---
 
 This is a quick guide, or mainly additional notes, around implementing Pod Security Policies on Kubernetes.
