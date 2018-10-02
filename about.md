@@ -6,13 +6,15 @@ permalink: /about/
 
 <img src="/assets/images/me.jpg" width="300px"/>
 
-I am currently a Part Time Lecturer and PhD candidate in the [High Performance Computing Research Group](http://hpc.hud.ac.uk/) at the University of Huddersfield.
+I am currently an HPC Systems Engineer at Red Bull Technology.
+
+Previously I was a Part Time Lecturer and PhD candidate in the [High Performance Computing Research Group](http://hpc.hud.ac.uk/) at the University of Huddersfield.
 
 My main interests are in programming, supercomputing and music technology, sometimes a combination of all three.
 
-I can be contacted at my email address joshiggins@gmail.com or joshua.higgins@hud.ac.uk.
+I can be contacted at my email address josh@joshh.info.
 
-The latest version of my resume / CV is always <a href="/assets/cv-jh.pdf">here</a>.
+The latest version of my resume / CV is <a href="/assets/cv-jh.pdf">here</a>.
 
 ## Publications
 
