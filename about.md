@@ -8,7 +8,7 @@ permalink: /about/
 
 I am currently an HPC Systems Engineer at Red Bull Technology.
 
-Previously I was a Part Time Lecturer and PhD candidate in the [High Performance Computing Research Group](http://hpc.hud.ac.uk/) at the University of Huddersfield.
+Previously I completed my PhD and was a part time Lecturer in the [High Performance Computing Research Group](http://hpc.hud.ac.uk/) at the University of Huddersfield.
 
 My main interests are in programming, supercomputing and music technology, sometimes a combination of all three.
 
