@@ -1,35 +1,7 @@
----
-layout: default
-title: Home
----
+<html>
 
-<section class="intro">
+<body>
+    <h1>Dr Joshua Higgins</h1>
+</body>
 
-  <div class="container">
-    <h3 class="category-title">Tags</h3>
-    {% for tag in site.categories %}
-      <a href="/tags/#{{ tag[0] | slugify }}" style="border:1px solid #000;padding:1px;">{{ tag[0] }}</a>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="post-list">
-  <div class="container">
-    {% for post in site.posts %}
-      {% unless post.next %}
-        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-        {% endif %}
-      {% endunless %}
-      <article class="post-item">
-        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
-      </article>
-    {% endfor %}
-  </div>
-
-</section>
+</html>
