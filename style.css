@@ -1,0 +1,16 @@
+.me {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.rb {
+    height: 200px;
+    float: right;
+    margin: 20px;
+}
+
+hr {
+    clear: both;
+}
